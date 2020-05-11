@@ -11,9 +11,9 @@ unsorted_list = [('first_element', 4), ('second_element', 2), ('third_element', 
 sorted_list = []
 
 #while we still have values in the unsorted list
-while len(unsorted_list) > 0:
+while len(unsorted_list) > 0:                #nice loop, super confusing for begginer. Spent 3 days figureit down.
     #loop through the unsorted list to find the minimum value
-    current_value = unsorted_list[0][1]
+    current_value = unsorted_list[0][1]      #doesnt have any functionality in script
     min_value = unsorted_list[0][1]
     index = 0
     for tuple_ in unsorted_list:
@@ -24,7 +24,7 @@ while len(unsorted_list) > 0:
         index += 1
 
     #push the minimum value onto the sorted list
-    sorted_list.append(unsorted_list.pop(min_index))
+    sorted_list.append(unsorted_list.pop(min_index))     #really like the solution of adding to sorted_list
     print("unsorted list is " + str(unsorted_list))
 
 print(sorted_list)

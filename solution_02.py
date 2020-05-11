@@ -24,4 +24,4 @@ for value in value_list:
             unsorted_list.remove(tuple_)
             break
 
-print(sorted_list)
+print(sorted_list) #I like this solution, simple. Again about good knowledge of loop(which I dont have yet :D)

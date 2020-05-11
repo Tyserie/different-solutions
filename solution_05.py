@@ -12,3 +12,5 @@ sorted_list = []
 
 sorted_list = sorted(unsorted_list, key=lambda x: x[1])
 print(sorted_list)
+
+#didnt learn lambda yet, so no idea whats going on here

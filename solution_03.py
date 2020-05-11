@@ -20,7 +20,7 @@ for x in range(0, len(unsorted_list)):
         if unsorted_list[i][1] < min:
             min = unsorted_list[i][1]
             index = i
-    sorted_list.append(unsorted_list[index])
+    sorted_list.append(unsorted_list[index])   #could use the sorted_list.append(unsorted_list.pop(index)) from solution_01
     unsorted_list.remove(unsorted_list[index])
 
 
